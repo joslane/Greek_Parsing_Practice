@@ -2,7 +2,7 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 Using this template proved incredibly useful in connecting the back end to the front end.
-This simple required the large step of connecting the back end to the database and retrieving data from it.
+This simply required the large step of connecting the back end to the database and retrieving data from it.
 
 
 # Provided Source Code:
@@ -17,7 +17,7 @@ These files were provided but heavily modified:
     * App.js
     * server.js
 
-These files were provided and slightly modified for implementation of the database:
+These files were provided and slightly modified for the implementation of the database:
     * package.json
 
 The rest of the files were provided and untouched, some of which are
@@ -30,4 +30,11 @@ but auto-generated and modified when built.
 
 2) Run "npm run server" to start the server
 
-3) In the other window, run "npm start" which will pop out the site stored on the local host to the default browswer
+3) In the other window, run "npm start" which will pop out the site stored on the local host to the default browser
+
+
+# Running Screenshots
+
+<img width="406" alt="image" src="https://github.com/user-attachments/assets/6868e949-06f5-4d62-af8e-f6417f482574" />
+
+
