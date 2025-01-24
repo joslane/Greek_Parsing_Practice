@@ -1,18 +1,24 @@
-# Introduction
+# Greek Parsing Tool
+
+This quiz-style web application allows students to practice determining the tense, voice, person, number, aspect, and gender of Greek verbs on sight.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-Using this template proved incredibly useful in connecting the back end to the front end.
-This simply required the large step of connecting the back end to the database and retrieving data from it.
+
+# Features
+* **Random selection:** given words for each question are randomized to increase quiz effectiveness
+* **Checking by attribute:** provides feedback on which answers are correct and incorrect
+* **Simple UI:** easy to use dropdown selections for each attribute
+* **Score tracking:** shows the user how many correct and incorrect to track progress
 
 
-# Provided Source Code
+# Credit
 
 Most files in this repository were provided by the template.
 The files that I created are:
     dbConfig.js
     dbOperation.js
 
-These files were provided but heavily modified, containing the main logic of the program:
+These files were provided but heavily modified, containing the main logic of the application:
     App.css
     App.js
     server.js
@@ -20,13 +26,18 @@ These files were provided but heavily modified, containing the main logic of the
 These files were provided and slightly modified for the implementation of the database:
     package.json
 
-The rest of the files were provided and untouched, some of which are
-not necessary for this program to function. Others are highly necessary
-but auto-generated and modified when built.
+The rest of the files were provided and untouched from the template linked above.
 
 # Running the app
 
-1) Open two terminal windows to the full-stack directory, wherever it is stored on the machine
+1. Clone the repository
+
+   `` git clone https://github.com/joslane/Greek-parsing-practice.git
+   cd Greek-parsing-practice```
+   
+2. Install dependencies
+
+   ``` npm install```
 
 2) Run "npm run server" to start the server
 
