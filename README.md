@@ -43,7 +43,7 @@ The rest of the files were provided and untouched from the template linked above
    npm install
    ```
 
-3. Set up the SQL database using the data and queries provided in the "data" folder. My procedure is as follow:
+3. Set up the SQL database using the data and queries provided in the "data" folder. My procedure is as follows:
    * Set up a database in SQL Server Management Studio
    * Run the provided queries in the SetupScripts.sql file
    * Connect the data provided in the RawData.xlsx file using Microsoft Access
