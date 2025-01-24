@@ -15,34 +15,60 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 Most files in this repository were provided by the template.
 The files that I created are:
-    dbConfig.js
-    dbOperation.js
+* dbConfig.js
+* dbOperation.js
 
 These files were provided but heavily modified, containing the main logic of the application:
-    App.css
-    App.js
-    server.js
+* App.css
+* App.js
+* server.js
 
 These files were provided and slightly modified for the implementation of the database:
-    package.json
+* package.json
 
 The rest of the files were provided and untouched from the template linked above.
 
-# Running the app
+# Setup
 
 1. Clone the repository
 
-   `` git clone https://github.com/joslane/Greek-parsing-practice.git
-   cd Greek-parsing-practice```
+   ```
+   git clone https://github.com/joslane/Greek-parsing-practice.git
+   cd Greek-parsing-practice
+   ```
    
 2. Install dependencies
 
-   ``` npm install```
+   ```
+   npm install
+   ```
 
-2) Run "npm run server" to start the server
+3. Set up the SQL database using the data and queries provided in the "data" folder. This is the procedure I followed:
+   a. Set up a database in SQL Server Management Studio
+   b. Run the provided queries in the SetupScripts.sql file
+   c. Connect the data provided in the RawData.xlsx file using Microsoft Access
 
-3) In the other window, run "npm start" which will pop out the site stored on the local host to the default browser
+4. Connect to the database in the dbConfig.js file
 
+    ```
+    const config = {
+    user: 'user',
+    password: '',
+    host: 'localhost',
+    database: 'GreekParsing',
+    options: {
+        trustServerCertificate: true,
+        trustedConnection: false,
+        enableArithAbort: true,
+        instancename:'SQLEXPRESS' 
+        },
+    port: 1433
+    }
+    ```
+5. Start the server
+    ```
+   node server.js
+    ```
 
 # Running Screenshot
 
