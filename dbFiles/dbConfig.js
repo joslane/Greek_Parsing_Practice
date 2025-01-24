@@ -8,7 +8,7 @@
 const config = {
     user: 'dbGenericUser',
     password: 'password',
-    server: 'BABY-LUIGI',
+    server: 'SERVER-NAME',
     database: 'GreekParsing',
     options: {
         trustServerCertificate: true,
